@@ -1,0 +1,26 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "extends": [
+    "airbnb/base",
+    "prettier"
+  ],
+  "parser": "babel-eslint",
+  "plugins": ["prettier", "import"],
+  "rules": {
+    "prettier/prettier": ["error", { "singleQuote": true }],
+    "import/no-unresolved": [
+      "error"
+    ],
+    "import/prefer-default-export": "off",
+    "no-underscore-dangle": [2, { "allow": [
+      "__Rewire__",
+      "__STATE__",
+      "__ResetDependency__",
+      "__set__",
+      "__get__"
+    ] }]
+  }
+}
