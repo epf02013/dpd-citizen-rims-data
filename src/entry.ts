@@ -7,7 +7,7 @@ const questions: Question[] = [
     message: 'please enter start date: yyyy-mm-dd',
     name: 'start'
   },
-  { type: 'string', message: 'please enter out date: yyyy-mm-dd', name: 'end' },
+  { type: 'string', message: 'please enter end date: yyyy-mm-dd', name: 'end' },
   {
     type: 'string',
     message: 'please enter out file: <some_name>.csv',
